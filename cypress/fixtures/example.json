@@ -1,0 +1,21 @@
+{
+  "name": "John",
+  "lastname": "Doe",
+  "email": "cypress@ateneaconocimientos.net",
+  "sex": "Male",
+  "telephone": "3333333333",
+  "birthDate": [
+    "December",
+    "1990",
+    "31"
+  ],
+  "subject":"English",
+  "hobbies": [
+    "Sports",
+    "Music"
+  ],
+  "picture": "my-image.png",
+  "address": "Alguna dirección ficticia",
+  "state": "NCR",
+  "city": "Delhi"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "automatization",
+  "version": "1.0.0",
+  "description": "proyecto test cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "testChrome": "npm run test -- --browser chrome",
+    "testDashboardChromeHeadless": "npm run testChrome -- --record --key 01c1fc1f-508f-49a0-9cd2-e93f68a3924c",
+    "testGroup1": "npm run testDashboardChromeHeadless -- --spec \"/home/kike/proyectos/cypress/cypress/integration/examples/Group1/*\""
+  },
+  "author": "Enrique Ríos",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "cypress": "^7.6.0",
+    "cypress-cucumber-preprocessor": "^4.1.2"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "cucumber": "^7.0.0-rc.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

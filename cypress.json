@@ -1,0 +1,12 @@
+{
+  "defaultCommandTimeout": 7000,
+  "env": {
+    "url": "https://demo.opencart.com"
+  },
+  "testfiles": "**/*.feature",
+  "retries":{
+    "runMode": 1,
+    "openMode": 0
+  },
+  "projectId": "ogsmi3"
+}
